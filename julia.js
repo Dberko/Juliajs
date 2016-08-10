@@ -40,10 +40,9 @@ function LoopJulia()
     cy = 983 * Math.cos(kat2);
     frame++;
  
-    /* tworzenie bitowego obrazu */
     RysujJulie();
  
-    /* kopiowanie bitowego obrazu do context/canvas */
+    /* context/canvas */
     contextJulia.putImageData(imgdJulia, 0, 0);
     contextJulia.font = "bold 12px sans-serif";
     contextJulia.fillStyle = 0;
